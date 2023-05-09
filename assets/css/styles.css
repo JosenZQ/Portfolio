@@ -35,6 +35,8 @@ section{
 
 .button-icon:hover{
     background-image: url(../img/menu-02.png);
+    transition: transform 2s ease;
+    transform: rotate(360deg);
     background-size: cover;
     transform: rotate(0.5);
 }
