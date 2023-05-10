@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -12,9 +12,24 @@
 
 <body>
     <section>
+        <input type="checkbox" id="btn-menu">
         <button class="open-button">
-            <div class="button-icon"></div>
+            <label for="btn-menu"><div class="button-icon"></div></label>
         </button>
+
+        <div class="menu-container">
+            <div class="menu">
+                <label for="btn-menu" class="close-button"><div class="close-button-icon"></div></label>
+                <nav>
+                    <a href="#">Página 01</a>
+                    <a href="#">Página 02</a>
+                    <a href="#">Página 03</a>
+                    <a href="#">Página 04</a>
+                    <a href="#">Página 05</a>
+                    <a href="#">Página 06</a>
+                </nav>
+            </div>
+        </div>
 
         <div class="header-title">
             <h1 class="portfolio-title">Portafolio</h1>
@@ -37,10 +52,6 @@
     </section>
 
     <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
-        Tempora, eos! Quo autem veniam, quia dolorem voluptas illum ut ipsa<br>
-        a soluta numquam vero modi culpa porro eaque tenetur doloremque libero?<br>
-
         Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
         Tempora, eos! Quo autem veniam, quia dolorem voluptas illum ut ipsa<br>
         a soluta numquam vero modi culpa porro eaque tenetur doloremque libero?<br>
