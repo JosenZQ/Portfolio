@@ -165,24 +165,56 @@
 .first-article{
     position: relative;
     width: calc(100% - 100px);
+    height: 300px;
     top: 20px;
     left: 50px;
-    border: 1px solid black;
 }
 
-.article-image{
-    float: right;
-    border: 1px solid black;
-    background: #3586ff;
+.first-article-content{
+    position: relative;
+    width: calc(100% - 350px);
+    top: -200px;
+}
+
+.first-article-image{
+    position: relative;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.domestika.org%2Fc_limit%2Cdpr_auto%2Cf_auto%2Cq_auto%2Cw_820%2Fv1576497340%2Fcontent-items%2F003%2F518%2F329%2F_MG_5442-original.jpg%3F1576497340&f=1&nofb=1&ipt=da532f065b2c6007b36840b79c4a7dc12596ffbbe5a0d77978591a773c9ede65&ipo=images);
+    background-size: cover;
     width: 300px;
     height: 300px;
     border-radius: 150px;
+    left: calc(100% - 300px);
+    cursor: pointer;
 }
 
+.first-article-image:hover{
+    transform: translate(5px, 12px);
+}
 
+.second-article{
+    position: relative;
+    width: calc(100% - 100px);
+    height: 300px;
+    top: 20px;
+    left: 50px;
+}
 
+.second-article-content{
+    position: relative;
+    width: calc(100% - 350px);
+    top: -200px;
+    left: 350px
+}
 
-
+.second-article-image{
+    position: relative;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.domestika.org%2Fc_limit%2Cdpr_auto%2Cf_auto%2Cq_auto%2Cw_820%2Fv1576497340%2Fcontent-items%2F003%2F518%2F329%2F_MG_5442-original.jpg%3F1576497340&f=1&nofb=1&ipt=da532f065b2c6007b36840b79c4a7dc12596ffbbe5a0d77978591a773c9ede65&ipo=images);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    cursor: pointer;
+}
 
 /** **************************************************** ANIMACIÓN DE LAS OLAS **************************************************** **/
 section .wave{
@@ -301,6 +333,12 @@ section .wave.wave4{
         font-size: 15px;
         border-left: 5px solid transparent;
         transition: all 400ms ease;
+    }
+
+    .first-article-image,
+    .second-article-image{
+        width: 250px;
+        height: 250px;
     }
 
 }
